@@ -12,7 +12,7 @@ app.use(express.json());
 
 const port = process.env.PORT || 5000;
 
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.6kyz8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://carbozonic:b8EOS4bXItzcI0qI@cluster0.6kyz8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 
 const client = new MongoClient(uri);
 
